@@ -1,0 +1,13 @@
+com/hms/qa/pages/HostelList.class
+com/hms/qa/pages/QuotePrice.class
+com/hms/qa/pages/BookingPage.class
+com/hms/qa/pages/CreateHostel.class
+com/hms/qa/pages/AdminPage.class
+com/hms/qa/pages/HostelView.class
+com/hms/qa/base/TestBase.class
+com/hms/qa/pages/AddRoom.class
+com/hms/qa/pages/LoginPage.class
+com/hms/qa/util/TestUtil.class
+com/hms/qa/pages/SignupPage.class
+com/qa/ExtentReportListener/ExtendReportListener.class
+com/hms/qa/pages/UserPage.class

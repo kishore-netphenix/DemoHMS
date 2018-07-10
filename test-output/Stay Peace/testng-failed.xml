@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Stay Peace]" parallel="tests">
+  <test thread-count="1" name="HMS Automation Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.hms.qa.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="hmsLogoImageTest"/>
+        </methods>
+      </class> <!-- com.hms.qa.tests.LoginPageTest -->
+      <class name="com.hms.qa.tests.AddUserPageTest">
+        <methods>
+          <include name="verifyUserPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hms.qa.tests.AddUserPageTest -->
+    </classes>
+  </test> <!-- HMS Automation Test(failed) -->
+</suite> <!-- Failed suite [Stay Peace] -->

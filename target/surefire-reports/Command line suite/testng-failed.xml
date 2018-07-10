@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.hms.qa.tests.CreateNewHostelTest">
+        <methods>
+          <include name="verifyAdminPageTitleTest"/>
+          <include name="hostelRoomsTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="hostelDetailsTest"/>
+        </methods>
+      </class> <!-- com.hms.qa.tests.CreateNewHostelTest -->
+      <class name="com.hms.qa.tests.AddUserPageTest">
+        <methods>
+          <include name="selectUsersTest"/>
+          <include name="verifyUserPageTitleTest"/>
+          <include name="enterUserDetailTest"/>
+          <include name="setUp"/>
+          <include name="clickAddUserTest"/>
+        </methods>
+      </class> <!-- com.hms.qa.tests.AddUserPageTest -->
+      <class name="com.hms.qa.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="hmsLogoImageTest"/>
+        </methods>
+      </class> <!-- com.hms.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
