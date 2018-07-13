@@ -14,11 +14,11 @@ import com.hms.qa.pages.SignUpPage;
  * @author qc
  *
  */
-public class SignUpTest extends TestBase {
+public class SignUpPageTest extends TestBase {
 	
 	SignUpPage signUp;	
 	
-	public SignUpTest() {
+	public SignUpPageTest() {
 		//Super class constructor will called by Super keyword 
 		super();
 	}
@@ -33,9 +33,9 @@ public class SignUpTest extends TestBase {
 	public void clickSignInTest() {
 		signUp.clickSignInLink();
 		signUp.clickSignUpLink();
-		signUp.enterUserDetails("priya", "Dharshini");
-		signUp.createLoginName("priya", "priya@gmail.com", "1234", "1234");
-		signUp.addPhoneNumber("676876767", "9866565465");
+		signUp.enterUserDetails("Arul", "Jose");
+		signUp.createLoginName("arul", "ajose@netphenix.com", "1234", "1234");
+		signUp.addPhoneNumber("9003387322", "00000");
 		signUp.selectGender();
 		signUp.userType();
 		signUp.acceptAndSave();

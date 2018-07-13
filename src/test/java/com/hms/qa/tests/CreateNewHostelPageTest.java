@@ -18,14 +18,14 @@ import com.hms.qa.pages.LoginPage;
  * @author qc
  *
  */
-public class CreateNewHostelTest extends TestBase {
+public class CreateNewHostelPageTest extends TestBase {
 
 	LoginPage loginPage;
 	AdminPage adminPage;
 	CreateHostel createHostel;
 	AddRoom addRoom;
 
-	public CreateNewHostelTest() {
+	public CreateNewHostelPageTest() {
 		// Super class constructor will called by Super keyword
 		super();
 	}

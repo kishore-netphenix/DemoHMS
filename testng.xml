@@ -4,10 +4,11 @@
 	annotations="JDK" parallel="tests">
 	<test name="HMS Automation Test">
 		<classes>
-			<class name="com.hms.qa.tests.SignUpTest" />
+			<class name="com.hms.qa.tests.SignUpPageTest" />
 			<class name="com.hms.qa.tests.LoginPageTest" />
-			<class name="com.hms.qa.tests.CreateNewHostelTest" />
+			<class name="com.hms.qa.tests.CreateNewHostelPageTest" />
 			<class name="com.hms.qa.tests.AddUserPageTest" />
+			<class name="com.hms.qa.tests.BookingPageTest" />
 		</classes>
 	</test>
 </suite>

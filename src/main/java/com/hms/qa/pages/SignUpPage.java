@@ -3,14 +3,11 @@
  */
 package com.hms.qa.pages;
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.hms.qa.base.TestBase;
 
 /**
@@ -61,6 +58,10 @@ public class SignUpPage extends TestBase {
 	@FindBy(xpath="//button[contains(text(), 'Submit')]")
 	WebElement submitBtn;
 	
+	@FindBy(xpath="//button[contains(text(),'Login')]")
+	WebElement loginPageBtn;
+	
+	
 	
 	// Initializing the Page Objects
 	public SignUpPage() {
@@ -106,7 +107,17 @@ public class SignUpPage extends TestBase {
 	
 	public void acceptAndSave() {
 		accept.click();
-		submitBtn.click();
+		submitBtn.click();			
+		
+		System.out.println("Test" + loginPageBtn.isDisplayed());
+		if(loginPageBtn.isDisplayed()) {
+			System.out.println("Test Passed");
+		}
+		else
+		{
+			System.out.println("Test Failed");
+		}	
+			
 	}	
 	
 }

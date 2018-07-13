@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16035" started-at="2018-07-10T12:43:14Z" finished-at="2018-07-10T12:43:30Z">
+  <suite name="Default suite" duration-ms="17895" started-at="2018-07-12T10:50:17Z" finished-at="2018-07-12T10:50:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16035" started-at="2018-07-10T12:43:14Z" finished-at="2018-07-10T12:43:30Z">
-      <class name="com.hms.qa.tests.SignUpTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hms.qa.tests.SignUpTest@52bf72b5]" name="setUp" is-config="true" duration-ms="12947" started-at="2018-07-10T12:43:14Z" finished-at="2018-07-10T12:43:27Z">
+    <test name="Default test" duration-ms="17895" started-at="2018-07-12T10:50:17Z" finished-at="2018-07-12T10:50:34Z">
+      <class name="com.hms.qa.tests.SignUpPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hms.qa.tests.SignUpPageTest@5158b42f]" name="setUp" is-config="true" duration-ms="13716" started-at="2018-07-12T10:50:17Z" finished-at="2018-07-12T10:50:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickSignInTest()[pri:0, instance:com.hms.qa.tests.SignUpTest@52bf72b5]" name="clickSignInTest" duration-ms="2892" started-at="2018-07-10T12:43:27Z" finished-at="2018-07-10T12:43:30Z">
+        <test-method status="PASS" signature="clickSignInTest()[pri:0, instance:com.hms.qa.tests.SignUpPageTest@5158b42f]" name="clickSignInTest" duration-ms="2590" started-at="2018-07-12T10:50:30Z" finished-at="2018-07-12T10:50:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSignInTest -->
-      </class> <!-- com.hms.qa.tests.SignUpTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hms.qa.tests.SignUpPageTest@5158b42f]" name="tearDown" is-config="true" duration-ms="1383" started-at="2018-07-12T10:50:33Z" finished-at="2018-07-12T10:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hms.qa.tests.SignUpPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
