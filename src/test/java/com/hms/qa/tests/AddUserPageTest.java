@@ -56,19 +56,19 @@ public class AddUserPageTest extends TestBase {
 	@Test(priority=4)
 	public void enterUserDetailTest() {
 		userPage.userDetail("kishore", "kumar");
-		userPage.userLoginDetail("kishore1", "kishore@netphenix.com", "1234", "1234");
+		userPage.userLoginDetail("vijay1", "vijay1@netphenix.com", "1234", "1234");
 		userPage.enterPhoneDetails("9787431055", "8248778562");
 		userPage.selectGender();
 		userPage.selectAgencyType();
 		userPage.selectUserType();
-//		userPage.addUser();		
+		userPage.addUser();		
 	}
 	
 	
-//	@AfterTest
-//	public void tearDown() {
-//		driver.quit();
-//	}
+	@AfterTest
+	public void tearDown() {
+		driver.quit();
+	}
 	
 
 }

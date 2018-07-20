@@ -3,19 +3,21 @@
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Stay Peace]" parallel="tests">
   <test thread-count="1" name="HMS Automation Test(failed)" parallel="tests">
     <classes>
-      <class name="com.hms.qa.tests.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="hmsLogoImageTest"/>
-        </methods>
-      </class> <!-- com.hms.qa.tests.LoginPageTest -->
       <class name="com.hms.qa.tests.AddUserPageTest">
         <methods>
           <include name="verifyUserPageTitleTest"/>
+          <include name="enterUserDetailTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.hms.qa.tests.AddUserPageTest -->
+      <class name="com.hms.qa.tests.BookingPageTest">
+        <methods>
+          <include name="bookHostelRoomTest"/>
+          <include name="custDetailsTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hms.qa.tests.BookingPageTest -->
     </classes>
   </test> <!-- HMS Automation Test(failed) -->
 </suite> <!-- Failed suite [Stay Peace] -->

@@ -34,7 +34,19 @@ public class CreateHostel extends TestBase {
 
 	@FindBy(name = "default_currency")
 	WebElement currency;
-
+	
+	@FindBy(xpath="//button[@class=\"btn btn-default\" and @data-target=\"#longitude\"]")
+	WebElement hostelLocation;
+	
+	@FindBy(xpath="//*[@id=\"longitude\"]/div/div/div[1]/div/div[2]/div/input")
+	WebElement exactLocation;
+	
+	@FindBy(xpath="//*[@id=\"longitude\"]/div/div/div[1]/div/div[2]/div/div/button")
+	WebElement search;
+	
+	@FindBy(xpath="//button[contains(text(), 'ok')] ")
+	WebElement saveLocation;
+	
 	@FindBy(name = "property_description")
 	WebElement propDesc;
 
@@ -88,11 +100,11 @@ public class CreateHostel extends TestBase {
 	// Actions
 
 	public void enterHostelName() {
-		hostelName.sendKeys("Yoga Hostel");
+		hostelName.sendKeys("Mani Hostel");
 	}
 
 	public void enterEmailId() {
-		emailId.sendKeys("yogahostel@gmail.com");
+		emailId.sendKeys("manihostel@gmail.com");
 	}
 
 	public void enterPhoeNumber() {
@@ -115,7 +127,7 @@ public class CreateHostel extends TestBase {
 	}
 
 	public void enterUrl() {
-		hostelUrl.sendKeys("https://www.yogahostel.com/");
+		hostelUrl.sendKeys("https://www.manihostel.com/");
 	}
 
 	public void enterFloor() {
@@ -124,6 +136,20 @@ public class CreateHostel extends TestBase {
 
 	public void enterCurrency() {
 		currency.sendKeys("INR");
+	}
+	
+	public void locations() {
+		hostelLocation.click();	
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		exactLocation.clear();
+		exactLocation.sendKeys("t nagar");
+		search.click();
+		saveLocation.click();
 	}
 
 	public void hostelPolicies() {

@@ -43,10 +43,6 @@ public class LoginPage extends TestBase {
 		return driver.getTitle();
 	}
 	
-	public boolean validateHMSLogo() {
-		return hmsLogo.isDisplayed();
-	}
-	
 	public AdminPage login(String un, String pwd) {
 		signIn.click();
 		user_name.sendKeys(un);

@@ -30,12 +30,12 @@ public class SignUpPageTest extends TestBase {
 	}
 
 	@Test
-	public void clickSignInTest() {
+	public void signUnTest() {
 		signUp.clickSignInLink();
 		signUp.clickSignUpLink();
-		signUp.enterUserDetails("Arul", "Jose");
-		signUp.createLoginName("arul", "ajose@netphenix.com", "1234", "1234");
-		signUp.addPhoneNumber("9003387322", "00000");
+		signUp.enterUserDetails("Vijay", "kumar");
+		signUp.createLoginName("vijay2", "vijay2@netphenix.com", "1234", "1234");
+		signUp.addPhoneNumber("9003387333", "00000");
 		signUp.selectGender();
 		signUp.userType();
 		signUp.acceptAndSave();

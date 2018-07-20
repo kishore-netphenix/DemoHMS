@@ -57,6 +57,7 @@ public class CreateNewHostelPageTest extends TestBase {
 		createHostel.enterUrl();
 		createHostel.enterFloor();
 		createHostel.enterCurrency();
+		createHostel.locations();
 		createHostel.hostelPolicies();
 		createHostel.selectHostelType();
 		createHostel.selectPaymentType();

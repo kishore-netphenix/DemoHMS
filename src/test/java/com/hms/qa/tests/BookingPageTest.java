@@ -45,7 +45,7 @@ public class BookingPageTest extends TestBase {
 	public void custDetailsTest() {
 		bookingPage.enterCustName("Kishore", "kumar");
 		bookingPage.enterPersonalDetails("nkishore@netphenix.com", "9787431055", "Ooty");
-//		bookingPage.acceptAndBook();
+		bookingPage.acceptAndBook();
 	}
 	
 	@AfterTest

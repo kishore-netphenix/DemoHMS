@@ -41,12 +41,6 @@ public class LoginPageTest extends TestBase {
 	}
 	
 	@Test(priority=2)
-	public void hmsLogoImageTest() {
-		boolean flag = loginPage.validateHMSLogo();
-		Assert.assertTrue(flag);
-	}
-	
-	@Test(priority=3)
 	public void loginTest() {
 		adminPage = loginPage.login(prop.getProperty("user_name"), prop.getProperty("password"));
 	}

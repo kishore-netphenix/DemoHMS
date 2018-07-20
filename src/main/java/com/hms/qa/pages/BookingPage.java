@@ -16,22 +16,22 @@ import com.hms.qa.base.TestBase;
  */
 public class BookingPage extends TestBase {
 	
-	@FindBy(xpath="//*[@id=\"bookingModal\"]/div/div/div[2]/div[1]/div[1]/input")
+	@FindBy(xpath="//*[@id=\"nonseamless\"]/div[1]/div[1]/input")
 	WebElement fname;
 	
-	@FindBy(xpath="//*[@id=\"bookingModal\"]/div/div/div[2]/div[1]/div[2]/input")
+	@FindBy(xpath="//*[@id=\"nonseamless\"]/div[1]/div[2]/input")
 	WebElement lname;
 	
-	@FindBy(xpath="//*[@id=\"bookingModal\"]/div/div/div[2]/div[2]/div[1]/input")
+	@FindBy(xpath="//*[@id=\"nonseamless\"]/div[2]/div[1]/input")
 	WebElement email;
 	
-	@FindBy(xpath="//*[@id=\"bookingModal\"]/div/div/div[2]/div[2]/div[2]/input")
+	@FindBy(xpath="//*[@id=\"nonseamless\"]/div[2]/div[2]/input")
 	WebElement phoneNo;
 	
-	@FindBy(xpath="//*[@id=\"bookingModal\"]/div/div/div[2]/div[3]/div/textarea")
+	@FindBy(xpath="//*[@id=\"nonseamless\"]/div[3]/div/textarea")
 	WebElement address;
 	
-	@FindBy(xpath="//*[@id=\"bookingModal\"]/div/div/div[2]/div[4]/div/div/label/span[1]")
+	@FindBy(xpath="//*[@id=\"nonseamless\"]/div[4]/div/div/label/span[1]")
 	WebElement acceptBooking;
 	
 	@FindBy(xpath="//button[contains(text(), 'Confirm My Booking')]")

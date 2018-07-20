@@ -58,6 +58,7 @@ public class AddRoom extends TestBase {
 	}
 		
 	public void enterNoOfRoom() {
+		noOfRooms.clear();
 		noOfRooms.sendKeys("2");
 		createRooms.click();
 	}

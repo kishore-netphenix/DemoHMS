@@ -48,7 +48,7 @@ public class TestBase {
     		driver = new FirefoxDriver();
 //    	}
 //    	else if(browserName.equals("chrome")){
-//    		System.setProperty("webdriver.chrome.driver", "/home/qc/Documents/Selenium/chromedriver_linux64 (1)/chromedriver");
+//    		System.setProperty("webdriver.chrome.driver", "/home/qc/Documents/Selenium/chromedriver_linux64/chromedriver");
 //    		driver = new ChromeDriver();
 //    	}
     	
