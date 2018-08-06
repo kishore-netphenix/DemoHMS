@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hms.qa.tests.SignUpPageTest">
+      <class name="com.hms.qa.tests.LoginDataDrivenTest">
         <methods>
-          <include name="clickSignInTest"/>
-          <include name="tearDown"/>
+          <include name="testData"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.hms.qa.tests.SignUpPageTest -->
+      </class> <!-- com.hms.qa.tests.LoginDataDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

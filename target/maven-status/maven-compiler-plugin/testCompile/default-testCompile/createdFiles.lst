@@ -1,3 +1,6 @@
-com/hms/qa/tests/CreateNewHostelTest.class
+com/hms/qa/tests/SignUpPageTest.class
+com/hms/qa/tests/CreateNewHostelPageTest.class
 com/hms/qa/tests/LoginPageTest.class
 com/hms/qa/tests/AddUserPageTest.class
+com/hms/qa/tests/LoginDataDrivenTest.class
+com/hms/qa/tests/BookingPageTest.class

@@ -1,0 +1,1 @@
+{"uuid":"aa3a5dbc-7119-4419-9b2c-d28afc280ff8","name":"com.hms.qa.tests.LoginDataDrivenTest.setUp","description":"","start":1533537699180,"stop":1533537712351,"children":["5f97aa25-ec14-40c0-83cd-0d65e8ef0a04"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1533537699181,"stop":1533537712350}]}
